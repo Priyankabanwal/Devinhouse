@@ -1,0 +1,46 @@
+.contact-us-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.1px;
+  right: -0.1px;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.the-ideation-process {
+  width: 195px;
+  position: relative;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  z-index: 2;
+}
+.contact-us-parent,
+.frame-wrapper5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.contact-us-parent {
+  align-self: stretch;
+  height: 215px;
+  justify-content: flex-end;
+  padding: var(--padding-14xl) var(--padding-21xl);
+  position: relative;
+}
+.frame-wrapper5 {
+  flex: 1;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  min-width: 220px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-rg-16-size);
+  color: var(--light-black);
+  font-family: var(--body-rg-16);
+}
